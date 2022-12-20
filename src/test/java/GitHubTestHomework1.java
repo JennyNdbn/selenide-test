@@ -1,12 +1,10 @@
-package test.java;
-
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class GitHubHomework1 {
+public class GitHubTestHomework1 {
     @Test
     void successfulSearchTest() {
         //Откройте страницу Selenide в Github
